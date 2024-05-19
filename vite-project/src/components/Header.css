@@ -1,0 +1,12 @@
+.detroitLogo {
+  width: 20rem;
+}
+.detroitTitle {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.amount {
+  font-size: 1.5rem;
+  color: red;
+}
