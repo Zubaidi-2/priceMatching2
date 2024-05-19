@@ -54,6 +54,7 @@ const refundObject = {
 
 export default function Logic({ ...props }) {
   const [ratio, setRatio] = useState(1);
+
   const [refund, setRefund] = useState(
     Object.values(refundObject).map((elem) => elem.value)
   );
@@ -152,10 +153,11 @@ export default function Logic({ ...props }) {
         <InputFields
           number={21}
           className="part-numbers"
-          value=""
+          // value={0}
           onChange={(e) => {
             e.target.value;
           }}
+          type="number"
         />
       </div>
 
